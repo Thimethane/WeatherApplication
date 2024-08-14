@@ -5,3 +5,41 @@
 .mainFxmlClass {
 
 }
+/* 
+    Stylesheet for the Weather Information App.
+    This file contains CSS styles for the JavaFX components used in the FXML layout.
+*/
+
+.root {
+    /* Background color for the entire application */
+    -fx-background-color: #87CEEB;
+    -fx-padding: 20px;
+}
+
+.button {
+    /* Font size for buttons */
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    /* Font size and preferred width for text fields */
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+
+.choice-box {
+    /* Font size for choice boxes */
+    -fx-font-size: 14px;
+}
+
+.label {
+    /* Font size and weight for labels */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    /* Preferred size for the list view */
+    -fx-pref-height: 100px;
+    -fx-pref-width: 300px;
+}
